@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="607dp"
+        android:id="@+id/image_view"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        />
+
+    <Button
+        android:layout_width="268dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:id="@+id/bt_pick"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="60dp"
+        android:text="Select image" />
+
+
+
+</LinearLayout>
